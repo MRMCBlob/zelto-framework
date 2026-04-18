@@ -1,0 +1,14 @@
+[package]
+name = "zelto-compiler"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+zelto-ir = { workspace = true }
+anyhow = { workspace = true }
+log = { workspace = true }
+
+# Phase 2: uncomment when implementing TSX parsing
+# swc_core = { version = "0.90", features = ["ecma_parser", "ecma_visit"] }
+# swc_ecma_ast = "0.110"
