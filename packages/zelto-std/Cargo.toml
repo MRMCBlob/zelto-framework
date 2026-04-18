@@ -1,0 +1,9 @@
+[package]
+name = "zelto-std"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+zelto-ir = { workspace = true }
+zelto-runtime = { workspace = true }

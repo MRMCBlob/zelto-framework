@@ -1,0 +1,17 @@
+[package]
+name = "counter"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "counter"
+path = "src/main.rs"
+
+[dependencies]
+zelto-runtime = { workspace = true }
+zelto-std = { workspace = true }
+zelto-ir = { workspace = true }
+zelto-win32 = { workspace = true }
+windows = { workspace = true }
+anyhow = { workspace = true }
+env_logger = { workspace = true }

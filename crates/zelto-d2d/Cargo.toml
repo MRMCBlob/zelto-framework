@@ -1,0 +1,11 @@
+[package]
+name = "zelto-d2d"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+zelto-ir = { workspace = true }
+windows = { workspace = true }
+anyhow = { workspace = true }
+log = { workspace = true }
